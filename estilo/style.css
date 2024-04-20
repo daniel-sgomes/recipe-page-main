@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 100px 0;
+    max-width: 1250px;
+}
+
+section {
+    border-radius: 20px;
+    width: 55%;
+    min-width: 499px;
+    position: relative;
+    left: 23%;
+    background-color: #fff;
+}
+
+.container-foto {
+    padding: 38px;
+    padding-bottom: 0;
+}
+
+.information {
+    padding: 38px;
+    padding-top: 0;
+}
+
+.container-foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Young Serif';
+    font-size: 36px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-family: 'Outfit';
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 26px 0;
+}
+
+.preparation h3 {
+    font-family: 'Outfit';
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation li {
+    margin: 12px 26px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(24, 5%, 18%);
+}
+
+strong {
+    margin-left: 12px;
+}
+
+.container-ingredients {
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+    margin: 26px 0;
+    padding-bottom: 12px;
+}
+
+.container-ingredients h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 28px;
+    color: hsl(14, 45%, 36%);
+}
+
+.container-ingredients ul {
+    margin: 20px 10px;
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.container-ingredients ul li {
+    margin: 12px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(24, 5%, 18%);
+}
+
+spam {
+    margin-left: 12px;
+}
+
+.container-ingredients ol {
+    margin: 20px 10px;
+}
+
+ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit ExtraBold';
+    margin-left: 8px;
+}
+
+.container-ingredients ol li {
+    margin: 12px;
+    font-family: 'Outfit';
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.tabela {
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+    margin: 26px 0;
+    padding-bottom: 32px;
+}
+
+.tabela h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 28px;
+    color: hsl(14, 45%, 36%);
+}
+
+table,
+tr,
+td {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+    padding: 12px 28px;
+}
+
+table,
+.item {
+    border-bottom: none;
+}
+
+table {
+    width: 100%;
+    font-family: 'Outfit';
+    color: hsl(24, 5%, 18%);
+}
+
+.gramas {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit ExtraBold';
+}

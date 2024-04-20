@@ -1,0 +1,24 @@
+@media(max-width:500px) {
+    body {
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+        left: 0px;
+    }
+
+    .container-foto {
+        padding: 0;
+    }
+
+    .container-foto img {
+        border-radius: 0;
+    }
+}
+
+@media(min-width:1900px) {
+    section {
+        left: 48%;
+    }
+}
