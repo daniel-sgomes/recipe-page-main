@@ -6,6 +6,7 @@
     section {
         width: 100%;
         left: 0px;
+        border-radius: 0;
     }
 
     .container-foto {
@@ -14,11 +15,5 @@
 
     .container-foto img {
         border-radius: 0;
-    }
-}
-
-@media(min-width:1900px) {
-    section {
-        left: 48%;
     }
 }
