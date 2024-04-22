@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-section {
+main {
     border-radius: 20px;
     width: 55%;
     min-width: 499px;
@@ -47,7 +47,7 @@ h1 {
     color: hsl(24, 5%, 18%);
 }
 
-p {
+.texto {
     font-family: 'Outfit';
     font-size: 15px;
     font-weight: 400;
@@ -62,12 +62,12 @@ p {
     margin: 26px 0;
 }
 
-.preparation h3 {
+.preparation h4 {
     font-family: 'Outfit';
     color: hsl(332, 51%, 32%);
 }
 
-.preparation li {
+.preparation-list li {
     margin: 12px 26px;
     font-family: 'Outfit';
     font-weight: 400;
@@ -75,24 +75,20 @@ p {
     color: hsl(24, 5%, 18%);
 }
 
-b {
-    margin-left: 12px;
-}
-
-.container-ingredients {
+.ingredients {
     border-bottom: solid 1px hsl(30, 18%, 87%);
     margin: 26px 0;
     padding-bottom: 12px;
 }
 
-.container-ingredients h2 {
+.ingredients h2 {
     font-family: 'Young Serif';
     font-weight: 400;
     font-size: 28px;
     color: hsl(14, 45%, 36%);
 }
 
-.container-ingredients ul {
+.ingredients ul {
     margin: 20px 10px;
 }
 
@@ -100,7 +96,7 @@ ul li::marker {
     color: hsl(332, 51%, 32%);
 }
 
-.container-ingredients ul li {
+.ingredients ul li {
     margin: 12px;
     font-family: 'Outfit';
     font-weight: 400;
@@ -108,7 +104,7 @@ ul li::marker {
     color: hsl(24, 5%, 18%);
 }
 
-.container-ingredients ol {
+.ingredients ol {
     margin: 20px 10px;
 }
 
@@ -118,12 +114,17 @@ ol li::marker {
     margin-left: 8px;
 }
 
-.container-ingredients ol li {
+.ingredients ol li {
     margin: 12px;
     font-family: 'Outfit';
     font-size: 15px;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
+}
+
+ol p,
+ul p {
+    margin-left: 15px;
 }
 
 .tabela {
@@ -164,5 +165,6 @@ table {
 }
 
 footer {
+    text-align: center;
     padding: 50px;
 }
