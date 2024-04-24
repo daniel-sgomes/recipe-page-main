@@ -1,11 +1,35 @@
-@media(max-width:500px) {
+@media(max-width:375px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .texto,
+    .preparation-list li,
+    .ingredients ul li,
+    .ingredients ol li,
+    table {
+        font-size: 11px;
+    }
+
+    .preparation h4 {
+        font-size: 13px;
+    }
+
+    .ingredients h2,
+    .tabela h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width:600px) {
     body {
         padding: 0;
     }
 
-    section {
+    main {
         width: 100%;
-        left: 0px;
+        min-width: 340px;
         border-radius: 0;
     }
 
